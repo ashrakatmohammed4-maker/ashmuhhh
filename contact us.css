@@ -12,6 +12,7 @@ body {
 
 
 header {
+    font-size: medium ;
     background:#223850;
     color: white;
     text-align: center;
@@ -33,7 +34,7 @@ nav {
 
 nav a {
     color: white;
-    padding: 15px;
+    padding: 15px 15px;
     text-decoration: none; 
 }
 
@@ -45,7 +46,7 @@ main {
     padding: 30px;
     text-align: center;
     margin: 10px;
-    min-height: 500px;
+    min-height: 600px;
 }
 
 main h6 {
@@ -82,7 +83,7 @@ legend {
 }
 
 .contact-box p {
-    margin: 8px 0;
+    margin: 8px;
     font-size: 18px;
     text-align: left;
 }
