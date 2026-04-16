@@ -32,7 +32,7 @@ nav {
     justify-content: center;
     flex-wrap: wrap;
     overflow-x: auto;
-    padding: 50px;
+   
 
 }
 
@@ -69,7 +69,8 @@ section h6 {
 
 
 fieldset {
-    
+    max-width: 1000px;
+    max-height: 900px;
     margin: 40px auto;  
     padding: 40px;
     background: white;
@@ -135,7 +136,7 @@ footer {
 }
 
 
-@media (max-width: 1000px) {
+@media (max-width: 768px) {
 
     header, nav, footer {
         width: 100%;
@@ -156,7 +157,7 @@ footer {
     }
 
     fieldset {
-        width: 95%;
+       
         margin: 10px auto;
         padding: 10px;
     }
