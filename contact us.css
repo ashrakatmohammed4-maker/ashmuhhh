@@ -16,7 +16,7 @@ header {
     background:#223850;
     color: white;
     text-align: center;
-    padding: 15px;
+    padding: 50px;
 }
 
 header span {
@@ -30,6 +30,7 @@ nav {
     display:flex;
     justify-content: center;
     flex-wrap: wrap;
+    padding: 15px;
 }
 
 nav a {
