@@ -1,0 +1,241 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eaecefc5;
+
+}
+
+
+header {
+    font-size:medium;
+    background:#223850;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 50px;
+}
+
+header span {
+    color: #ea74b5;
+    font-size:x-large;
+}
+
+
+nav {
+    background:#2e445c;
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+   
+   
+
+}
+
+
+nav a {
+    color: white;
+    padding: 15px 15px;
+    text-decoration:#ea74b5;
+    
+    
+    
+    
+}
+
+nav a:hover {
+    color: #ea74b5;
+}
+
+
+main {
+    padding: 30px;
+    text-align: center;
+    margin: 3px;
+    color: #737f8a;
+}
+.add{
+    font-size: xx-large;
+    color: #ea74b5;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align:center;
+}
+
+
+
+
+.div {
+    width: 400px;
+    margin: 30px auto;
+}
+
+.course-form {
+    max-width: 900px;
+    margin: 30px auto;
+    text-align: center;
+
+}
+
+
+fieldset{
+    background: white;
+    padding: 50px;
+    border-radius: 15px;
+    margin: 50px auto;
+    border: 1px solid #dbd7d7;
+    text-align: center;
+
+}
+
+
+legend {
+    font-size: 20px;
+    color: #4a6480;
+    text-align:left;
+}
+
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size:medium;
+}
+
+.note {
+   color: #4a6480;
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size:larger;
+    
+    
+}
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    transition: 0.5s;
+    font-size: small;
+}
+
+
+input:focus,
+select:focus,
+textarea:focus {
+    border-color:#ea74b5;
+    outline:#ea74b5;
+}
+
+
+.radio-group {
+    display: flex;
+    margin: 8px;
+    text-align: center;
+}
+
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    background:#f180be;
+    color: white;
+    border-radius: 8px;
+    transition:0.5s; 
+    width: 100%;
+}
+
+button:hover {
+    background-color:#40566c
+    
+}
+
+footer {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: small;
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+@media (max-width: 600px) {
+
+    
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a {
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+    }
+
+    
+    header h1 {
+        font-size: 20px;
+    }
+
+   
+
+    .course-form {
+        width: 95%;
+        margin: 10px auto;
+    }
+
+    fieldset {
+        width: 100%;
+        padding: 10px;
+    }
+
+    label {
+        font-size: 14px;
+    }
+
+    input,
+    select,
+    textarea {
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .radio-group {
+        flex-direction: column;
+    }
+
+    table {
+        display: block;
+        overflow-x: auto;   
+        white-space: nowrap;
+    }
+
+    th, td {
+        font-size: 12px;
+        padding: 8px;
+    }
+
+ 
+
+    .welcome,
+    .contact-box {
+        width: 95%;
+    }
+
+    button {
+        width: 100%;
+    }
+}

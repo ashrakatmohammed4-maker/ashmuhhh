@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="add course.css">
+    <title>add course page</title>
+</head>
+<body>
+    <header>
+    <h1> <span>Personal </span> course organizer</h1>
+    <h1>"ADD COURSE"</h1>
+  </header>
+<div>
+    <nav>
+         <a href="index.html">home</a>
+         <a href="my courses.html"> my courses</a>
+         <a href="add course.html"> add course</a>
+         <a href="contact us.html"> contact us</a>
+    </nav>
+</div>
+<main> 
+    <section>
+        <h6> course mangagement</h6>
+            <p class="add"> Add your new courses now</p>
+            <br>
+            
+            <h6> fill in the course information below </h6>
+
+        <div>
+        <form class="course-form">
+            <fieldset>
+                <legend> <strong>courses box</strong></legend>
+            
+            <label for="txt"> Course code :</label>
+            <input  id="txt"  type="text" placeholder="Enter course code" required>
+            <br>
+            <label>Course Name :</label>
+            <input type="text"  placeholder="Enter course name" required>
+            <br>
+
+            <label>Instructor name :</label>
+            <input type="text" placeholder="Enter instructor name" required>
+
+            <br>
+
+            <label>Credit Hours :</label>
+            <input type="number" min="1" max="5" placeholder="From 1 to 5" required>
+
+            <br>
+
+            <label>Course status :</label>
+            <select required>
+                <option value="">-planned-</option>
+                <option> IN PROGRESS</option>
+                <option> COMPLETED</option>
+            </select>
+
+            <br>
+            
+        
+            <label>Start date :</label>
+            <input type="date">
+
+            <br>
+            <label>Difficulty Level :</label>
+            <div class="radio-group">
+                <label><input type="radio" name="level"> Beginner</label>
+                <label><input type="radio" name="level"> Intermediate</label>
+                <label><input type="radio" name="level"> Advanced</label>
+            </div>
+            <hr>
+            <labe class="note">Notes</labe>
+            <textarea placeholder="Write your notes about the course..."></textarea>
+            <br>
+            <hr>
+            <div class="buttons">
+            <ul>
+               
+           <li> <button type="submit">submit course</button></li> 
+           <br>
+            <li><button type="reset">reset</button></li>
+                
+            </ul>
+            </div>
+        </fieldset>
+        </form>
+        </div>
+
+    </section>
+</main>
+<footer>
+   <h5>add course page</h5>
+    <h6> personal course organizer</h6>
+    <p>© 2026 - designed by ashrakat muh </p>  
+</footer>
+    
+</body>
+</html>

@@ -1,0 +1,151 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e3e6e9c5;
+}
+
+
+header {
+    background:#223850;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+header span {
+    color: #ea74b5;
+    font-size:x-large;
+}
+
+
+nav {
+    background:#2e445c;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: white;
+    padding: 15px;
+    text-decoration: none; 
+}
+
+nav a:hover {
+    color: #f081be;
+}
+
+main {
+    padding: 30px;
+    text-align: center;
+    margin: 10px;
+    min-height: 500px;
+}
+
+main h6 {
+    color: rgb(117, 117, 139);
+    margin-bottom: 20px;
+}
+
+h5 {
+    font-size: xx-large;
+}
+
+.contact-box {
+    max-width: 500px;
+    margin: 40px auto;
+    width: 100%;
+}
+
+fieldset {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    border: 1px solid #e8e2e2;
+}
+
+legend {
+    font-size: 18px;
+    color: #3c576c;
+    text-align: left;
+}
+
+.contact-box h3 {
+    margin-bottom: 20px;
+    color:#ea74b5;
+}
+
+.contact-box p {
+    margin: 8px 0;
+    font-size: 18px;
+    text-align: left;
+}
+
+footer {
+    font-family: Cambria, serif;
+    font-size: small;
+    background: #2d4255;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+@media (max-width: 768px) {
+
+    header {
+        padding: 25px 10px;
+    }
+
+    header h1 {
+        font-size: 20px;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    nav a {
+        width: 100%;
+        text-align: center;
+        border-top: 1px solid #3b536b;
+    }
+
+    .contact-box {
+        width: 90%;
+    }
+
+    fieldset {
+        padding: 15px;
+    }
+
+    legend {
+        text-align: center;
+    }
+
+    .contact-box p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    h5 {
+        font-size: 20px;
+    }
+
+    main h6 {
+        font-size: 12px;
+    }
+
+    .contact-box p {
+        font-size: 13px;
+    }
+}

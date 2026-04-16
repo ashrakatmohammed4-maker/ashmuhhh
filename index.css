@@ -1,0 +1,175 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e2e5e8c5;
+
+}
+
+
+header {
+    font-size:medium;
+    background: #223850;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 50px;
+}
+
+header span {
+    color: #ea74b5;
+    font-size:x-large;
+}
+
+
+nav {
+    background:#2e445c;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+   
+
+
+nav a {
+    color: white;
+    padding: 15px 15px;
+    text-decoration:dashed;
+}
+
+nav a:hover {
+    color: #f081be;
+}
+
+
+main {
+    padding: 30px;
+    text-align: center;
+    margin: 3px;
+    height: 500px;
+}
+.My.Home{
+    color: #ef88c0;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.div{
+    width: 300px;
+    margin: auto;
+   
+}
+.subtitle {
+    font-size: small;
+    color:#6e7071 ;
+}
+
+.dear{
+    font-size: xx-large;
+    font-weight:bolder;
+    color:#ed89c0;
+}
+.welcome {
+    font-size: small;
+    color:#2c3e50;
+    background: rgba(255, 255, 255, 0.78);
+    padding: 100px;
+    border-radius: 20px;
+    width: 40%;
+    margin: auto;
+}
+
+.start {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background:#37516a;
+    color: rgba(255, 255, 255, 0.88);
+    border-radius: 10px;
+    cursor:alias;
+}
+
+.start:hover {
+    background:#ef75b8;
+    transition: 0.4s;
+}
+
+footer {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: small;
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+@media (max-width: 600px) {
+
+    /* NAVBAR */
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a {
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+    }
+
+    /* HEADER */
+    header h1 {
+        font-size: 20px;
+    }
+
+    
+
+    .course-form {
+        width: 95%;
+        margin: 10px auto;
+    }
+
+    fieldset {
+        width: 100%;
+        padding: 10px;
+    }
+
+    label {
+        font-size: 14px;
+    }
+
+    input,
+    select,
+    textarea {
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .radio-group {
+        flex-direction: column;
+    }
+
+    
+
+    table {
+        display: block;
+        overflow-x: auto;   
+        white-space: nowrap;
+    }
+
+    th, td {
+        font-size: 12px;
+        padding: 8px;
+    }
+
+    
+
+    .welcome,
+    .contact-box {
+        width: 95%;
+    }
+
+    button {
+        width: 100%;
+    }
+}
