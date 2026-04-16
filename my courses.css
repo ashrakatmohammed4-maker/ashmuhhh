@@ -32,7 +32,7 @@ nav {
     justify-content: center;
     flex-wrap: wrap;
     overflow-x: auto;
-    padding: 50px;
+    padding: 90px;
 
 }
 
@@ -132,7 +132,7 @@ footer {
     background: #2d4255;
     color: white;
     text-align: center;
-    padding: 50px;
+    padding: 100px;
 }
 
 
