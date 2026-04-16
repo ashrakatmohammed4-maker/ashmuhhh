@@ -105,71 +105,21 @@ footer {
 }
 @media (max-width: 600px) {
 
-    /* NAVBAR */
+    
     nav {
         flex-direction: column;
-        align-items: center;
     }
 
     nav a {
         width: 100%;
         text-align: center;
-        padding: 10px;
     }
 
-    /* HEADER */
-    header h1 {
-        font-size: 20px;
-    }
-
-    
-
-    .course-form {
-        width: 95%;
-        margin: 10px auto;
-    }
-
-    fieldset {
-        width: 100%;
-        padding: 10px;
-    }
-
-    label {
-        font-size: 14px;
-    }
-
-    input,
-    select,
-    textarea {
-        font-size: 14px;
-        width: 100%;
-    }
-
-    .radio-group {
-        flex-direction: column;
+    .welcome {
+        width: 90%;
+        padding: 15px;
     }
 
     
 
-    table {
-        display: block;
-        overflow-x: auto;   
-        white-space: nowrap;
-    }
-
-    th, td {
-        font-size: 12px;
-        padding: 8px;
-    }
-
-    
-
-    .welcome,
-    .contact-box {
-        width: 95%;
-    }
-
-    button {
-        width: 100%;
-    }
 }
