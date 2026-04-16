@@ -132,41 +132,22 @@ footer {
     padding: 20px;
 }
 
-@media (max-width: 600px) {
 
-  
-    nav {
-        flex-direction: column;
+@media (max-width: 480px) {
+
+    section h1 {
+        font-size: 18px;
     }
 
-    nav a {
-        width: 100%;
-        text-align: center;
+    section h6 {
+        font-size: 12px;
     }
 
- 
-    .welcome {
-        width: 90%;
-        padding: 15px;
+    legend {
+        font-size: 18px;
     }
 
-  
-    .course-form {
-        width: 95%;
-    }
-
-    .radio-group {
-        flex-direction: column;
-    }
-
-    table {
-        display: block;
-        overflow-x: auto;
-        white-space: nowrap;
-    }
-
-    
-    .contact-box {
-        width: 90%;
+    td {
+        font-size: 11px;
     }
 }

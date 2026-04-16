@@ -171,8 +171,11 @@ footer {
     padding: 20px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
 
+    header {
+        padding: 25px 10px;
+    }
 
     nav {
         flex-direction: column;
@@ -181,31 +184,45 @@ footer {
     nav a {
         width: 100%;
         text-align: center;
+        border-top: 1px solid #3b536b;
     }
 
-    .welcome {
+    .div {
         width: 90%;
-        padding: 15px;
     }
 
+    fieldset {
+        padding: 20px;
+    }
 
-    .course-form {
-        width: 95%;
+    legend {
+        text-align: center;
     }
 
     .radio-group {
         flex-direction: column;
+        align-items: center;
     }
 
- 
-    table {
-        display: block;
-        overflow-x: auto;
-        white-space: nowrap;
-    }
-
-   
-    .contact-box {
-        width: 90%;
+    .buttons {
+        flex-direction: column;
     }
 }
+
+@media (max-width: 480px) {
+
+    .add {
+        font-size: 20px;
+    }
+
+    input,
+    select,
+    textarea {
+        font-size: 12px;
+    }
+
+    button {
+        font-size: 14px;
+    }
+}
+    

@@ -96,10 +96,16 @@ footer {
     padding: 20px;
 }
 
+@media (max-width: 768px) {
 
-@media (max-width: 600px) {
+    header {
+        padding: 25px 10px;
+    }
 
-  
+    header h1 {
+        font-size: 20px;
+    }
+
     nav {
         flex-direction: column;
     }
@@ -107,30 +113,37 @@ footer {
     nav a {
         width: 100%;
         text-align: center;
+        border-top: 1px solid #3b536b;
     }
 
-  
-    .welcome {
+    .contact-box {
         width: 90%;
+    }
+
+    fieldset {
         padding: 15px;
     }
 
-    .course-form {
-        width: 95%;
+    legend {
+        text-align: center;
     }
 
-    .radio-group {
-        flex-direction: column;
+    .contact-box p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    h5 {
+        font-size: 20px;
     }
 
-    table {
-        display: block;
-        overflow-x: auto;
-        white-space: nowrap;
+    main h6 {
+        font-size: 12px;
     }
 
- 
-    .contact-box {
-        width: 90%;
+    .contact-box p {
+        font-size: 13px;
     }
 }
