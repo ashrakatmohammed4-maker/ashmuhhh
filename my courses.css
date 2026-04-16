@@ -17,6 +17,7 @@ header {
     color: rgb(255, 255, 255);
     text-align: center;
     padding: 50px;
+    overflow-x: auto;
 }
 
 header span {
@@ -30,6 +31,9 @@ nav {
     display:flex;
     justify-content: center;
     flex-wrap: wrap;
+    overflow-x: auto;
+    padding: 50px;
+
 }
 
 nav a {
@@ -49,7 +53,6 @@ main {
     margin: 30px;
     height: 600px;
 }
-
 
 
 section h1 {
@@ -129,11 +132,11 @@ footer {
     background: #2d4255;
     color: white;
     text-align: center;
-    padding: 20px;
+    padding: 50px;
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
 
     header, nav, footer {
         width: 100%;
@@ -170,4 +173,6 @@ footer {
         font-size: 12px;
         padding: 6px;
     }
+    
+    
 }
