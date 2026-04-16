@@ -32,7 +32,7 @@ nav {
     justify-content: center;
     flex-wrap: wrap;
     overflow-x: auto;
-   
+    padding: 50px;
 
 }
 
@@ -136,7 +136,7 @@ footer {
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
 
     header, nav, footer {
         width: 100%;
@@ -157,7 +157,7 @@ footer {
     }
 
     fieldset {
-       
+        width: 95%;
         margin: 10px auto;
         padding: 10px;
     }

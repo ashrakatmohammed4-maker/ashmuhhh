@@ -28,7 +28,7 @@ nav {
     display:flex;
     justify-content:center;
     flex-wrap:wrap;
-   
+    padding: 50px;
    
    
 
@@ -68,12 +68,12 @@ main {
 
 
 .div {
-    width: 500px;
+    width: 400px;
     margin: 30px auto;
 }
 
 .course-form {
-    max-width: 800px;
+    max-width: 900px;
     margin: 30px auto;
     text-align: center;
 
@@ -82,9 +82,9 @@ main {
 
 fieldset{
     background: white;
-    padding: 30px;
+    padding: 50px;
     border-radius: 15px;
-    margin: 40px auto;
+    margin: 50px auto;
     border: 1px solid #dbd7d7;
     text-align: center;
 
@@ -103,7 +103,6 @@ label {
     margin-top: 10px;
     font-weight: bold;
     font-size:medium;
-  
 }
 
 .note {
@@ -118,7 +117,7 @@ label {
 input,
 select,
 textarea {
-    width: 90%;
+    width: 100%;
     padding: 10px;
     margin-top: 10px;
     border: 1px solid #ccc;
